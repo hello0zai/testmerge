@@ -23,3 +23,23 @@ git pull
 git merge beta/1.0.0/windows
 git push
 ```
+
+To delete a Git branch locally and remotely:
+
+1. Delete local branch
+
+```
+git branch -d branch-name
+```
+
+If the branch has unmerged changes and you intentionally want to force-delete it:
+
+```
+git branch -D branch-name
+```
+
+2. Delete remote branch
+
+```
+git push origin --delete branch-name
+```
