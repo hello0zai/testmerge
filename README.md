@@ -1,4 +1,6 @@
 …or create a new repository on the command line
+
+```
 echo "# testmerge" >> README.md
 git init
 git add README.md
@@ -10,3 +12,4 @@ git push -u origin main
 git remote add origin https://github.com/hello0zai/testmerge.git
 git branch -M main
 git push -u origin main
+```
