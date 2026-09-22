@@ -13,3 +13,13 @@ git remote add origin https://github.com/hello0zai/testmerge.git
 git branch -M main
 git push -u origin main
 ```
+
+
+how to merge branch
+
+```
+git checkout main
+git pull
+git merge beta/1.0.0/windows
+git push
+```
